@@ -6,12 +6,12 @@
 }
 body{
     background-color: #f5f5f5;
-    min-width: 400px;
+    min-width: 450px;
     padding: 10px;
 }
 input{
     outline: none;
-    border:green 2px solid;
+    border:rgb(5, 5, 5) 2px solid;
     width:98%;
     height: 50px;
     margin:10px;
@@ -23,11 +23,14 @@ button{
     width:15%;
     height: 50px;
     margin-left: 10px;
-    background-color:green;
+    background-color:black;
     cursor:pointer;
     color:white;
     font-weight: bold;
+    min-width: 115px;
+
     font-size: 20px;
+    border-radius: 10px;
 }
 ul{
     list-style-type: none;
@@ -43,8 +46,18 @@ li a{
     color:green;
     font-size: 25px;
 }
+#delete-btn{
+    background-color:white;
+    color:black;
+    
+}
+button:hover{
+    background-color: rgb(0, 0, 0,0.7);
+}
 
-
+#delete-btn:hover{
+    background-color: rgba(37, 34, 34, 0.7);
+}
 
 
 
